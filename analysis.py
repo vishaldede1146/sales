@@ -21,3 +21,5 @@ import seaborn as sns
 
 sns.barplot(x="Month", y="Sales", data=df)
 plt.show()
+
+import numpy as np
