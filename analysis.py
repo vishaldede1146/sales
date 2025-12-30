@@ -15,3 +15,9 @@ plt.title("Monthly Sales")
 plt.xlabel("Month")
 plt.ylabel("Sales")
 plt.show()
+
+
+import seaborn as sns
+
+sns.barplot(x="Month", y="Sales", data=df)
+plt.show()
